@@ -1,0 +1,73 @@
+body {
+    height: 1000px;
+    background-color: #ddfcff;
+}
+
+.top-bar, .sticky.fixed {
+    background-color: #003f54;
+}
+
+.sticky.fixed ul li a {
+    color: #fffffc;
+}
+
+.top-bar ul li a {
+    background-color: #003f54 !important;
+}
+
+.top-bar ul li.active a {
+    background-color: #61b6d9 !important;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+}
+
+#logo img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header h1 {
+    text-align: right;
+}
+
+.test {
+    background-color: #003f54;
+    height: 20px;
+}
+
+/* SMALL SCREEN and up */
+@media only screen and (max-width: 40em) {
+    .header h1 {
+        text-align: center;
+    }
+}
+
+/* MEDIUM SCREEN and up */
+@media only screen and (min-width: 40.063em) {
+    .top-bar {
+        background-color: transparent;
+    }
+
+    .top-bar ul li {
+        background-color: transparent !important;
+    }
+    .top-bar ul li a {
+        color: #222222;
+        background-color: transparent !important;
+    }
+}
+
+/* LARGE SCREEN and up */
+@media only screen and (min-width: 64.063em) {
+
+}
+
+/* XLARGE SCREEN and up */
+@media only screen and (min-width: 90.063em) {
+
+}
