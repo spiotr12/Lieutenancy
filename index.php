@@ -13,7 +13,7 @@
 <div class="row logonav">
     <div class="small-12 medium-3 large-4 columns">
         <div id="logo">
-            <img src="./img/icon-placeholder.svg">
+            <img class="element-center" src="img/ellipse.svg">
         </div>
     </div>
     <div class="small-12 medium-9 large-8 columns header">
@@ -45,8 +45,42 @@
     </div>
 </div>
 
-<footer>
+<!-- MAIN PAGE CONTENT -->
+<div class="container odd">
+    <div class="row">
+        <div class="small-12 medium-9 columns">
+            <h2>Welcome</h2>
+            <p>
+                The county of Kincardineshire has existed for many centuries and was a separate Local Authority area
+                until
+                1975 but is now within the administrative area of the Aberdeenshire Council.
+            </p>
+            <p>
+                The historic counties of Aberdeenshire and Banffshire still remain and have their own Lord Lieutenant.
+                It is
+                important to note that the Lieutenancies are quite separate from the Local Authority areas.
+            </p>
+        </div>
+        <div class="small-12 small-only-text-center medium-3 columns">
+            <img src="img/content/Carol_Kinghorn.png">
+            <label>Mrs Carol Kinghorn</label>
+            <label>The Lord-Lieutenant of Kincardineshire</label>
+        </div>
+    </div>
+</div>
 
+<div class="container even">
+    <div class="row">
+
+    </div>
+</div>
+
+<footer class="container">
+    <div class="row">
+        <div class="small-12 medium-9 columns">
+
+        </div>
+    </div>
 </footer>
 
 

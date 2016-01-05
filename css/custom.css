@@ -1,8 +1,33 @@
-body {
-    height: 1000px;
-    background-color: #ddfcff;
+.test {
+    background-color: #003f54;
+    height: 20px;
 }
 
+body {
+    height: 1000px;
+    background-color: #ffffff;
+}
+
+.container{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.element-center {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+}
+
+.container.odd {
+    background-color: #bfc3cc;
+}
+
+.container.even {
+    background-color: #fafafa;
+}
+
+/* TOP BAR */
 .top-bar, .sticky.fixed {
     background-color: #003f54;
 }
@@ -19,6 +44,10 @@ body {
     background-color: #61b6d9 !important;
 }
 
+.sticky:not(.fixed) li {
+    margin-left: 9px;
+}
+
 #logo {
     margin-top: 20px;
     margin-left: auto;
@@ -26,24 +55,22 @@ body {
     max-width: 250px;
 }
 
-#logo img {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .header h1 {
     text-align: right;
 }
 
-.test {
-    background-color: #003f54;
-    height: 20px;
+.logonav {
+    margin-bottom: 30px;
 }
 
-/* SMALL SCREEN and up */
+/* SMALL SCREEN */
 @media only screen and (max-width: 40em) {
     .header h1 {
         text-align: center;
+    }
+
+    .title-area li {
+        background-color: #003f54;
     }
 }
 
@@ -56,6 +83,7 @@ body {
     .top-bar ul li {
         background-color: transparent !important;
     }
+
     .top-bar ul li a {
         color: #222222;
         background-color: transparent !important;
@@ -64,7 +92,9 @@ body {
 
 /* LARGE SCREEN and up */
 @media only screen and (min-width: 64.063em) {
-
+    .sticky.fixed ul {
+        margin-right: 100px;
+    }
 }
 
 /* XLARGE SCREEN and up */
