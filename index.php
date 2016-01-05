@@ -32,11 +32,22 @@
                 </ul>
                 <section class="top-bar-section">
                     <ul class="right">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Role</a></li>
+                        <li class="active has-dropdown">
+                            <a>Home</a>
+                            <ul class="dropdown">
+                                <li><a href="#welcome">Welcome</a></li>
+                                <li><a href="#role">Role</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">Deputy</a></li>
                         <li><a href="#">Visit</a></li>
-                        <li><a href="#">Events</a></li>
+                        <li class="has-dropdown">
+                            <a>Celebrations</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Remembrance</a></li>
+                                <li><a href="#">Anniversaries</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </section>
@@ -45,40 +56,82 @@
     </div>
 </div>
 
+<span id="welcome"></span>
+
 <!-- MAIN PAGE CONTENT -->
 <div class="container odd">
     <div class="row">
-        <div class="small-12 medium-9 columns">
-            <h2>Welcome</h2>
-            <p>
-                The county of Kincardineshire has existed for many centuries and was a separate Local Authority area
-                until
-                1975 but is now within the administrative area of the Aberdeenshire Council.
-            </p>
-            <p>
-                The historic counties of Aberdeenshire and Banffshire still remain and have their own Lord Lieutenant.
-                It is
-                important to note that the Lieutenancies are quite separate from the Local Authority areas.
-            </p>
-        </div>
-        <div class="small-12 small-only-text-center medium-3 columns">
-            <img src="img/content/Carol_Kinghorn.png">
-            <label>Mrs Carol Kinghorn</label>
-            <label>The Lord-Lieutenant of Kincardineshire</label>
+        <div class="medium-9 medium-centered columns">
+            <div class="row">
+                <div class="small-12 medium-9 columns">
+                    <h2>Welcome</h2>
+                    <p>
+                        The county of Kincardineshire has existed for many centuries and was a separate Local Authority
+                        area until 1975 but is now within the administrative area of the Aberdeenshire Council.
+                    </p>
+                    <p>
+                        The historic counties of Aberdeenshire and Banffshire still remain and have their own Lord
+                        Lieutenant. It is important to note that the Lieutenancies are quite separate from the Local
+                        Authority areas.
+                    </p>
+                </div>
+                <div class="small-12 small-only-text-center medium-3 columns">
+                    <img src="img/content/Carol_Kinghorn.png">
+                    <label>Mrs Carol Kinghorn</label>
+                    <label>The Lord-Lieutenant of Kincardineshire</label>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
+<span id="role"></span>
+
 <div class="container even">
     <div class="row">
-
+        <div class="small-12 medium-9 medium-centered columns">
+            <h2>Role</h2>
+            <p>
+                Their main duty is to uphold the dignity of the Crown. In doing so they will organise official Royal
+                visits
+                to their area by any member of the Royal Family and will escort the Royal visitors in their area.
+            </p>
+            <p>
+                They will ensure that the royal household is kept aware of local events and issues and particularly of
+                any
+                noteable achievements by people in their area.
+            </p>
+            <p>
+                They will liaise with local units of the Armed Services and Cadet Units, they will participate in many
+                social and voluntary activities in their area.
+            </p>
+            <p>
+                Lord-Lieutenants are responsible for recommending awards to those meriting such and to ensure those who
+                have
+                been outstanding in service are invited to Her Majesty's Garden parties at Holyrood Palace
+            </p>
+            <p>
+                Lord-Lieutenants represent Her Majesty at Citizenship Ceremonies. They will also present decorations,
+                awards
+                to industry, Scout and Guide awards and those for Voluntary Service
+            </p>
+        </div>
     </div>
 </div>
 
 <footer class="container">
     <div class="row">
-        <div class="small-12 medium-9 columns">
-
+        <div
+            class="small-6 small-centered small-only-text-center medium-4 medium-offset-1 large-3 large-offset-2 medium-uncentered columns">
+            <img id="kincardineshireMap" src="img/content/kincardineshire.jpg">
+        </div>
+        <div class="small-12 small-centered medium-uncentered medium-6 large-6 end columns">
+            <p>
+                Kincardineshire still exists as the ancient county title with defined geographical boundries. The Lord
+                Lieutenant is Her Majesty the Queen's representative for the country. Aberdeenshire is only the name of
+                the Local Authority and not part of the postal address. Please continue to use "Kincardineshire" as your
+                postal address, as permitted by Royal Mail
+            </p>
         </div>
     </div>
 </footer>

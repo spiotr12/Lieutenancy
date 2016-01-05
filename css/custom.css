@@ -4,13 +4,25 @@
 }
 
 body {
-    height: 1000px;
     background-color: #ffffff;
 }
 
-.container{
-    padding-top: 20px;
-    padding-bottom: 30px;
+footer {
+    bottom: 0;
+}
+
+footer.container {
+    background-color: #00a5de;
+}
+
+#kincardineshireMap {
+    border: 3px solid #003f54;
+    border-radius: 5px;
+}
+
+.container {
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .element-center {
@@ -20,7 +32,7 @@ body {
 }
 
 .container.odd {
-    background-color: #bfc3cc;
+    background-color: #9fbbcc;
 }
 
 .container.even {
@@ -55,12 +67,17 @@ body {
     max-width: 250px;
 }
 
-.header h1 {
-    text-align: right;
+.logonav {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.logonav {
-    margin-bottom: 30px;
+.header {
+    padding-top: 15px;
+}
+
+.header h1 {
+    text-align: right;
 }
 
 /* SMALL SCREEN */
@@ -93,7 +110,7 @@ body {
 /* LARGE SCREEN and up */
 @media only screen and (min-width: 64.063em) {
     .sticky.fixed ul {
-        margin-right: 100px;
+        /*margin-right: 100px;*/
     }
 }
 
