@@ -13,7 +13,8 @@
 <div class="row logonav">
     <div class="small-12 medium-3 large-4 columns">
         <div id="logo">
-            <img class="element-center" src="img/ellipse.svg">
+<!--            <img class="element-center" src="img/ellipse.svg">-->
+            <img class="element-center" src="img/flag.svg">
         </div>
     </div>
     <div class="small-12 medium-9 large-8 columns header">
